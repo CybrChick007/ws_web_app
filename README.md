@@ -1,2 +1,10 @@
 # ws_web_app
-Second year final coursework for Web Script
+
+
+Key Features:
+
+Hot to use:
+
+Details of Design:
+
+Implementaions rationle, why?
