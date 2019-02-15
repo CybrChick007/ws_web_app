@@ -1,0 +1,9 @@
+{
+  "name": "ws_web_app",
+  "version": "1.0.0",
+  "description": "Mechanic Dashboard for WS coursework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node examples/http-express"
+  }
+}
