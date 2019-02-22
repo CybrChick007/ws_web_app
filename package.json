@@ -4,6 +4,12 @@
   "description": "Mechanic Dashboard for WS coursework",
   "main": "server.js",
   "scripts": {
-    "start": "node examples/http-express"
+    "start": "./node_modules/.bin/nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
