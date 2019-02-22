@@ -4,8 +4,8 @@ body {
   grid-template-rows:  1fr 2fr 2fr;
 
   grid-template-areas: "header header header"
-                       "lanes league league"
-                       "parts issues spare";
+                       "lanes parts issues"
+                       "spare spare spare";
   height: 100vh;
   width: 100vw;
 }
@@ -44,4 +44,13 @@ header {
 
 .button{
   grid-area: spare;
+}
+
+label{
+  display: block;
+}
+
+.issuesInput {
+  height:50vw;
+  width: 40vw;
 }
