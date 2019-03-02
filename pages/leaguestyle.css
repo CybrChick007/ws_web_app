@@ -1,0 +1,10 @@
+.leagueTable{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:  1fr 1fr 1fr 1fr;
+
+  grid-template-areas:  "blank day day day day day"
+                        "type input input input input input"
+                        "time input input input input input"
+                        "lanes input input input input input";
+}
