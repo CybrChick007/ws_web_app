@@ -1,16 +1,3 @@
-html {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr)r;
-  grid-template-rows:  1fr 2fr 2fr;
-
-  grid-template-areas: "header header header"
-                       "lanes parts issues"
-                       "league spare spare";
-  height: 100vh;
-  width: 100vw;
-}
-
-
 table {
   border: 2px solid rgb(200,200,200);
   border-collapse: collapse;
@@ -23,35 +10,11 @@ td {
   padding: 10px 20px;
 }
 
-header {
-  grid-area: header;
-}
 
-.lanes {
-  grid-area: lanes;
-}
-
-.league{
-  grid-area: league;
-}
-
-.parts{
-  grid-area: parts;
-}
-
-.issues{
-  grid-area: issues;
-}
-
-.button{
+/* .button{
   grid-area: spare;
-}
+} */
 
 label{
   display: block;
-}
-
-.issuesInput {
-  height:50vw;
-  width: 40vw;
 }

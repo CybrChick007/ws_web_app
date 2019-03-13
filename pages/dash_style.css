@@ -1,0 +1,32 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:  1fr 2fr 2fr;
+
+  grid-template-areas: "header league league"
+                       "lanes parts parts"
+                       "lanes issues issues";
+
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  grid-area: header;
+}
+
+.lanes {
+  grid-area: lanes;
+}
+
+.league{
+  grid-area: league;
+}
+
+.parts{
+  grid-area: parts;
+}
+
+.issues{
+  grid-area: issues;
+}

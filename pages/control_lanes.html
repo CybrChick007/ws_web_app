@@ -17,16 +17,15 @@
     <section class="lanes">
       <h2>Lanes</h2>
       <ul>
-        <li>Lane 1 - <input type="text" name="lane1" value=""></li>
-        <li>Lane 2 - <input type="text" name="lane2" value=""></li>
-        <li>Lane 3 - <input type="text" name="lane3" value=""></li>
-        <li>Lane 4 - <input type="text" name="lane4" value=""></li>
-        <li>Lane 5 - <input type="text" name="lane5" value=""></li>
-        <li>Lane 6 - <input type="text" name="lane6" value=""></li>
-        <li>Lane 7 - <input type="text" name="lane7" value=""></li>
-        <li>Lane 8 - <input type="text" name="lane8" value=""></li>
-        <li>Lane 9 - <input type="text" name="lane9" value=""></li>
-
+        <li>Lane 1-<textarea id="laneC1" name="laneC1" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 2-<textarea id="laneC2" name="laneC2" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 3-<textarea id="laneC3" name="laneC3" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 4-<textarea id="laneC4" name="laneC4" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 5-<textarea id="laneC5" name="laneC5" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 6-<textarea id="laneC6" name="laneC6" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 7-<textarea id="laneC7" name="laneC7" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 8-<textarea id="laneC8" name="laneC8" value="" rows="2" cols="33"></textarea></li>
+        <li>Lane 9-<textarea id="laneC9" name="laneC9" value="" rows="2" cols="33"></textarea></li>
       </ul>
       <!-- quick view of 26 lanes -->
     </section>
@@ -34,10 +33,10 @@
     <section class="parts">
       <h2>Parts to be ordered</h2>
       <label for="partInput">Part Name</label>
-      <input type="text" name="partInput" value="">
+      <textarea name="partInput" rows="2" cols="80"></textarea>
 
       <label for="partNum">Part Number(no dashes)</label>
-      <input type="text" name="partNum" value="">
+      <textarea name="partNum" rows="1" cols="20"></textarea>
 
       <button type="button" name="newPart">New Part</button>
       <!-- Parts and part numbers -->
@@ -45,7 +44,8 @@
 
     <section class="issues">
       <h2>Issues</h2>
-      <input type="text" name="issuesInput" value="Issues" size="50">
+      <textarea name="issuesInput" rows="8" cols="100"></textarea>
+
       <!-- issue type, lane num -->
     </section>
 
