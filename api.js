@@ -7,28 +7,34 @@ app.get('/', );
 
 app.post('/', );
 
-window.addEventListener('load',);
+window.addEventListener('load', initalize);
 const AUTOREFRESH_INTERVAL = 1000; // 1s
 
-async function pageLoad(req, res){
-  const submit = window.getElementById('button_*');
+async function initalize(req, res){
+  const submit = window.querySelectorAll('button');
   submit.addEventListener("click", collectInfo);
 }
 
-function lanes(req, res, laneNo) {
-  let lane = "lane"+laneNo
-  let text = lane.textContent
 
-}
-
-function issues(req, res){
-
-}
-
-function parts(req, res){
-
-}
-
-function leagues(req, res){
-
-}
+//
+//
+// function lanes(req, res, laneNo) {
+//   let laneID = "laneC"+laneNo;
+//   let lane = querySelector(laneID);
+//
+//   let text = lane.textContent;
+//
+//   return text;
+// }
+//
+// function issues(req, res){
+//   let
+// }
+//
+// function parts(req, res){
+//
+// }
+//
+// function leagues(req, res){
+//
+// }
