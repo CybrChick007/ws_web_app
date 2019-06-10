@@ -14,74 +14,39 @@
 <body>
   <header>
     <h1>Updates</h1>
+    <h2>Today's date:</h2>
     <h2 id="date"></h2>
 
   </header>
 
   <section class="lanes">
+    <!-- quick view of 9 lanes. 9 is being used as an example for the purpose of development-->
     <h2>Lanes</h2>
     <ul class="laneList">
-      <li>Lane 1 - <textarea id="lanedb1" name="lane1" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 2 - <textarea id="lanedb2" name="lane2" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 3 - <textarea id="lanedb3" name="lane3" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 4 - <textarea id="lanedb4" name="lane4" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 5 - <textarea id="lanedb5" name="lane5" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 6 - <textarea id="lanedb6" name="lane6" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 7 - <textarea id="lanedb7" name="lane7" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 8 - <textarea id="lanedb8" name="lane8" value="" rows="2" cols="33"></textarea></li>
-      <li>Lane 9 - <textarea id="lanedb9" name="lane9" value="" rows="2" cols="33"></textarea></li>
+      <li>Lane 1 - <textarea id="lanedb1" name="lane1" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 2 - <textarea id="lanedb2" name="lane2" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 3 - <textarea id="lanedb3" name="lane3" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 4 - <textarea id="lanedb4" name="lane4" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 5 - <textarea id="lanedb5" name="lane5" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 6 - <textarea id="lanedb6" name="lane6" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 7 - <textarea id="lanedb7" name="lane7" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 8 - <textarea id="lanedb8" name="lane8" value="" rows="2" cols="33" readonly></textarea></li>
+      <li>Lane 9 - <textarea id="lanedb9" name="lane9" value="" rows="2" cols="33" readonly></textarea></li>
     </ul>
-    <!-- quick view of 9 lanes -->
   </section>
 
   <section class="parts">
+    <!-- A list of parts than are out of stock and need to be ordered by the chief tech -->
     <h2>Parts to be ordered</h2>
-    <textarea name="partsToOrder" rows="8" cols="80"></textarea>
+    <textarea name="partsToOrder" rows="12" cols="80" readonly></textarea>
   </section>
 
-  <section class="league">
-    <h2>Leagues</h2>
-    <table>
-      <tr>
-        <td>&nbsp;</td>
-        <td>Monday</td>
-        <td>Tuesday</td>
-        <td>Wednesday</td>
-        <td>Thursday</td>
-        <td>Friday</td>
-      </tr>
-      <tr>
-        <td>Type</td>
-        <td>Doubles</td>
-        <td>Doubles</td>
-        <td>Doubles</td>
-        <td>Doubles</td>
-        <td>Doubles</td>
-      </tr>
-      <tr>
-        <td>Time</td>
-        <td>18:00</td>
-        <td>18:00</td>
-        <td>18:00</td>
-        <td>18:00</td>
-        <td>18:00</td>
-      </tr>
-      <tr>
-        <td>Lanes</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-        <td>10</td>
-      </tr>
-    </table>
-    <!-- timetable for the week -->
-  </section>
 
   <section class="issues">
+    <!-- List of miscellaneous issuses with machines or the bowl as a whole  -->
+    <!-- issue description, lane num or location -->
     <h2>Persistent and left over Issues</h2>
-    <textarea name="machineIssues" rows="8" cols="80"></textarea>
-    <!-- issue type, lane num -->
+    <textarea id="machineIssues" name="machineIssues" rows="12" cols="80" readonly></textarea>
   </section>
 
 </body>

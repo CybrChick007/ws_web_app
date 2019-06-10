@@ -1,11 +1,21 @@
 'use strict'
 
+const ws = new WebSocket("ws://" + window.location.hostname + ":" + (window.location.port || 80) + "/" );
+
+
 console.log("hello world");
 
-function pageLoad(){
-  const submit = document.getElementById('buttonSave');
-  submit.addEventListener("click", fetchInfo);
-}
+
+
+//Send anything typed into a section of the control to a new line of the issues section of the dashboard
+
+//Set up two placeholder elements, one for type and one for read. Autofocus on type and have read as read only (see index.html in socket examples)
+
+//Display date
+
+//event listeners from an to Server
+//---------------------------------------------------------//
+
 //
 // function fetchInfo(){
 //   console.log("Fetched info")
